@@ -1,0 +1,16 @@
+body{
+    background: rgb(233, 198, 230);
+}
+#right{
+    background: rgb(237, 233, 184);
+    align-content: center;
+}
+#left{
+    background: rgb(190, 229, 229);
+    align-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
