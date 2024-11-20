@@ -1,1 +1,1 @@
-"An interactive calendar usinh HTML, CSS and JavaScript" 
+"An interactive calendar using HTML, CSS and JavaScript" 
