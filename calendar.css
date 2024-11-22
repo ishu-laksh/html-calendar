@@ -1,16 +1,34 @@
-body{
+body {
     background: rgb(233, 198, 230);
-}
-#right{
-    background: rgb(237, 233, 184);
-    align-content: center;
-}
-#left{
-    background: rgb(190, 229, 229);
-    align-content: center;
-    align-items: center;
-}
-.flex-container{
+    margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.flex-container {
+    display: flex;
+    width: 90%; 
+    height: 90%; 
+    background: white; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    background: rgb(190, 229, 229);
+    align-items: center; 
+    padding: 30px; 
+    justify-content: center;
+    gap:5px;
+
+}
+
+#right {
+    background: rgb(237, 233, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
